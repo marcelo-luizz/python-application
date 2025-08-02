@@ -16,6 +16,7 @@ def info():
         'deployed_on': 'kubernetes'
     })
 
+
 @app.route('/api/v1/healthz')
 
 def health():
