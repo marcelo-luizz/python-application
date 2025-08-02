@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: {{ .Values.namespace }}
   name: {{ include "python-app.fullname" . }}
   labels:
     {{- include "python-app.labels" . | nindent 4 }}
