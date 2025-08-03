@@ -9,5 +9,5 @@ metadata:
     github.com/project-slug: marcelo-luizz/python-application
 spec:
   type: service
-  owner: team-dev
+  owner: dev-team
   lifecycle: experimental
