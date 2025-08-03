@@ -1,10 +1,12 @@
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: python-app
-  description: The python app
+  description: |
+    Python APP
   annotations:
-    github.com/project-slug: marceloluiz1/python-app
+    github.com/project-slug: marcelo-luizz/python-application
 spec:
   type: service
   owner: team-dev
