@@ -8,6 +8,10 @@ metadata:
   annotations:
     github.com/project-slug: marcelo-luizz/python-application
     backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: production
+  owner: user:guest    
 #spec:
  # type: service
  # owner: user:default/mateus
